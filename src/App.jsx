@@ -3,11 +3,22 @@ import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
 
+
+function BotaoPersonalizado() {
+  return <button>Entre para Comunidade</button>;
+}
+
+
 function App() {
 
   return (
-    <h1>Olá mundo!</h1>
+    <div>
+      <h1>Minha Aplicação</h1>
+      <BotaoPersonalizado />
+    </div>
   )
 }
+
+
 
 export default App
